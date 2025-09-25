@@ -1,3 +1,4 @@
+#Criando a Classe
 class Carro:
     def __init__(self, marca, modelo, ano, cor):
         self.marca = marca 
@@ -20,8 +21,13 @@ class Carro:
         return (f"(self.marca) (self.modelo) ({self.ano}) - "
         f"Cor: {self.cor}, Velocidade: {self.velocidade} km/h")
 
+#Criando Objeto
+
 carro1 = Carro("Toyota", "Corolla", 2020, "Preto")
 carro2 = Carro("Honda", "Civic", 2019, "Vermelho")
+
+#Interagindo com os Objetos
+
 print(carro1.detalhes())
 print(carro2.detalhes())
 
