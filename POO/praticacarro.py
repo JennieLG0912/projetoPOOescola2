@@ -7,7 +7,8 @@ class Carro:
         self.cor = cor
         self.velocidade = 0
     
-    def acelerar(self, valor):
+    def acelerar(self. 
+    valor):
         self.velocidade += valor 
         print(f"(self.modelo) acelerou para (self.velocidade) km/h! ")
 
