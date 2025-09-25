@@ -13,6 +13,7 @@ def escola():
             dtn = input("Digite sua data de nascimento: ")
             curso = int(input("Qual seu curso? \n1-Desenvolvimento de Sistema\n2-Enfermagem\n3-Administração\n4-Finanças\nEscolha: "))
 
+
             print("Seu nome é: ", nome)
             print("Sua idade é: ", idade)
             print("Seu CPF é: ", cpf)
