@@ -12,7 +12,7 @@ class Aluno(Pessoa):
 
     def apresentar(self) -> str:
         base = super().apresentar()
-        return F"{base} e sou aluno, matrícula {self.matricula}"
+        return f"{base} e sou aluno, matrícula {self.matricula}"
     
 class Professor(Pessoa):
     def __init__(self, nome: str, disciplina: str) -> None:
