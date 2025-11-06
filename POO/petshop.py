@@ -61,4 +61,3 @@ class Funcionario:
         print(f"Adotante: {self.nomea}, CPF: {self.cpf}, Idade: {self.idadea}")
         print(f"Nome do Pet é: {self.nome}, a idade do Pet é {self.idade} anos, a Raça do Pet é: {self.raca}, e o Tipo é: {self.tipo}")
         return "Essas informações estão corretas?"
-     
