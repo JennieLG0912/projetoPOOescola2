@@ -38,4 +38,3 @@ objetos = [Musica(), Receptor()]
 
 for obj in objetos:
     obj.compositor()
-
