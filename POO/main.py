@@ -1,7 +1,13 @@
-from petshop import Pet, Animal
+from petshop import Adotante, Pet, Animal, Funcionario
 
+adotante = Adotante()
 pet = Pet()
-animal = Animal()
+animal = Animal(pet.tipo)
 
-print(pet.apresentar())
+print(adotante.apresentar())
+print(pet.apresentar1())
 print(animal.apresentar())
+
+# nao foi colocado na ordem dos demais pq essa parte fl funcionario é pra printar por ultimo, por isso é a confirmacao
+funcionario = Funcionario(adotante, animal)
+print(funcionario.apresentar())
