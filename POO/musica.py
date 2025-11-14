@@ -12,7 +12,7 @@ class Compositor:
 
 class Albuns:
     def musica(self):
-        print(" as musicas que compoe esse album é: é voce e indiozinho  ")        
+        print("as musicas que compoe esse album é: é voce e indiozinho  ")        
 
 def fazer_compositor(obj):
     obj.compositor()
@@ -24,17 +24,14 @@ def fazer_album(obj):
 def fazer_musica(obj):
     obj.musica()
 
-m = Musica()
-r = Receptor()
-c = Compositor()
-a = Albuns()
-
-fazer_compositor(m)
-fazer_compositor(r)
-fazer_album(c)
-fazer_musica(a)
-
 objetos = [Musica(), Receptor()]
-
 for obj in objetos:
     obj.compositor()
+
+objetos = [Compositor()]
+for obj in objetos:
+    obj.album()
+
+objetos = [Albuns()]
+for obj in objetos:
+    obj.musica()
