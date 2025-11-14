@@ -14,16 +14,6 @@ class Albuns:
     def musica(self):
         print("as musicas que compoe esse album é: é voce e indiozinho  ")        
 
-def fazer_compositor(obj):
-    obj.compositor()
-
-def fazer_album(obj):
-    obj.album()    
-
-
-def fazer_musica(obj):
-    obj.musica()
-
 objetos = [Musica(), Receptor()]
 for obj in objetos:
     obj.compositor()
